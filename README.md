@@ -109,11 +109,6 @@ max_len = 50
 
 # PAD_SEQUENCES EXAMPLE :
 
-nums=[[1],[2,3],[4,5,6]]
-sequence.pad_sequences(nums)
-
-nums=[[1],[2,3],[4,5,6]]
-sequence.pad_sequences(nums,maxlen=2)
 
 X = sequence.pad_sequences(maxlen=max_len,sequences=X1, padding="post",value=num_words-1)
 X[0]
